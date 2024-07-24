@@ -1,0 +1,14 @@
+Jupyter notebooks: ML_Analysis_gbr.ipynb     - Gradient boosting regression model
+		   ML_Analysis_xgboost.ipynb - XGBoost model
+                   frequency_scaling.ipynb   - Frequency scaling code for transferability test
+
+
+Data Files:	DataTrainValidation.csv 	  - 108 data points for training and validation 
+		DataTest.csv	    		  - five random data points for testing unseen data
+    		testset2_B3LYP-D3_6-311+g*.csv 	  - five data points with level of theory B3LYP-D3/6-311+g* 
+                testset3_wB97X-D_631g*		  - five data points with level of theory wB97X-D/6-31g* 
+		testset2_B3LYP-D3_6-311+g*_scaled - scaled frequency for level of theory B3LYP-D3/6-311+g* 
+		testset2_B3LYP-D3_6-311+g*_scaled - scaled frequency for level of theory wB97X-D/6-31g*
+
+Trained model: gbr_model.pkl - the pkl file is the trained GBR model. This file can be loaded and used directly without training. One prediction example is the 'gbr_model_test.ipynb'
+

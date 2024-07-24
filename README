@@ -1,0 +1,4 @@
+ML_Models : This folder contains Jupyter-notebooks for GBR and XGBoost ML models.
+
+Trained model: gbr_model.pkl - the pkl file is the trained GBR model. This file can be loaded and used directly without training. One prediction example is the 'gbr_model_test.ipynb'
+
