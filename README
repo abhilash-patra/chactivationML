@@ -1,4 +1,5 @@
 ML_Models : This folder contains Jupyter-notebooks for GBR and XGBoost ML models.
+LFER :      Linear model.
 
 Trained model: gbr_model.pkl - the pkl file is the trained GBR model. This file can be loaded and used directly without training. One prediction example is the 'gbr_model_test.ipynb'
 
